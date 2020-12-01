@@ -1,0 +1,142 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 11 Nov, 2018, 10:58:13 PM
+    Author     : User
+*/
+
+.heading{
+    
+    align-self: center;
+    text-decoration: none;
+    background: #CCCCCC;
+    color: #333333;
+    
+}
+
+.nav-bar{
+    background: black;
+    padding: 10px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+    align-items: center;
+    background: #CCCCCC;
+    color: #333333;
+    text-decoration: none;
+}
+
+
+.dropdown button, .homebutton{
+    border: none;
+    margin: 0;
+    padding: 0.4em 0.8em;
+    font-size: 1em;
+    background: #CCCCCC;
+    color: #333333;
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+
+.dropdown .dropmenu {
+    position: absolute;
+    top: 100%;
+    display: none;
+    margin: 0;
+    list-style: none; 
+    width: 100%;
+    padding: 0;
+}
+.dropdown:hover .dropmenu {
+    display: block;
+}
+.dropdown a {
+    display: block;
+    padding: 0.4em 0.8em;
+    text-decoration: none;
+    background: #CCCCCC;
+    color: #333333;
+}
+.dropdown a:hover {
+    background: #BBBBBB;
+}
+.forms input{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    align-self: center;
+    display: block;
+    padding: 0.5em 0.9em;
+    text-decoration: none;
+    background: #CCCCCC;
+    color: #333333;
+    width: 50%
+   
+}
+
+.forms select{
+     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    align-self: center;
+    display: block;
+    padding: 0.5em 0.9em;
+    text-decoration: none;
+    background: #CCCCCC;
+    color: #333333;
+    width: 50%
+}
+
+.forms option{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    align-self: center;
+    display: block;
+    padding: 0.5em 0.9em;
+    text-decoration: none;
+    background: #CCCCCC;
+    color: #333333;
+    width: 50%
+}
+
+.coursetable {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 60%;
+    align-self: center;
+}
+
+.deleteitems {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+.deleteitems input{
+    display: block;
+       border: none;
+    margin: 0;
+    padding: 0.6em 0.8em;
+    font-size: 1em;
+     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+       background: #CCCCCC;
+    color: #333333;
+    
+}
+
+.deleteitems option{
+    font-size: 1em;
+     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.deleteitems select{
+     width: 100%;
+    font-size: 1.5em;
+     font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.coursetablea {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    align-self: center;
+}
+
+
