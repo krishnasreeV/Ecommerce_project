@@ -1,8 +1,39 @@
-# Objective: #
+# Description: #
 This project is a basic implementation of an e-commerce website.
-This web application allows a consumer(end-user) to browse through products offered by the site and place an order.
+The application allows a consumer(end-user) to browse through products offered by the site and place an order.
 The project also handles the administration part where the employee of the shopping site can manage other employees, inventory, products etc. 
 
+# Admin guide: #
+Application supports two kinds of administrators. 
+System admin and product admin, system admin manages the system users 
+and product admin manages the products listed in the system. 
+A glimpse of admin dashboard and product admin dashboard is shown below.
+![](images/adminwf_gif.gif)
+#### Complete user workflow: ####	 
+Default login credentials for an admin employee are admin/admin123).\
+![Watch entire admin workflow here](images/adminworkflow.swf)
+
+#### Administration employee operations include: #### 
+* Adding new employees belonging to different departments to the system
+#### Employee in products department workflow include: ####
+* Adding different categories in products
+* Adding products belonging to different categories to the system(Note: images for added products must be placed in docbase folder/build/web folder and just the jpeg file name must be entered on screen)
+* Adding products to bestselling list manually.
+
+	
+# User guide: #
+A glimpse of consumer workflow is shown below.
+![](images/userwfgif.gif)
+	
+#### Complete user workflow: ####	 
+![Watch entire consumer workflow here.](images/userworkflow.swf)
+
+#### End-user workflow includes the following operations: ####
+* New user registration 
+* Existing user login 
+* Browse through products in each category.
+* Browse through the best selling items.
+* Add to cart and checkout.
 	
 # Architechture: #
 The application follows a typical jsp architechture as shown in the image below.
@@ -36,37 +67,6 @@ The application follows a typical jsp architechture as shown in the image below.
 * Navigate to tomcat folder / bin folder, double click startup.bat. make sure tomcat is up and running without any errors.
 * Go to any browser and load the URL http://${hostname}:${port number}/Shopping_project/index.html. Ex: http://localhost:8180/Shopping_project/index.html.
 
-	 
-# Admin guide: #
-Application supports two kinds of administrators. 
-System admin and product admin, system admin manages the system users 
-and product admin manages the products listed in the system. 
-A glimpse of admin dashboard and product admin dashboard is shown below.
-![](images/adminwf_gif.gif)
-#### Complete user workflow: ####	 
-Default login credentials for an admin employee are admin/admin123).\
-![Watch entire admin workflow here](images/adminworkflow.swf)
 
-#### Administration employee operations include: #### 
-* Adding new employees belonging to different departments to the system
-#### Employee in products department workflow include: ####
-* Adding different categories in products
-* Adding products belonging to different categories to the system(Note: images for added products must be placed in docbase folder/build/web folder and just the jpeg file name must be entered on screen)
-* Adding products to bestselling list manually.
-
-	
-# User guide: #
-A glimpse of consumer workflow is shown below.
-![](images/userwfgif.gif)
-	
-#### Complete user workflow: ####	 
-![Watch entire consumer workflow here.](images/userworkflow.swf)
-
-#### End-user workflow includes the following operations: ####
-* New user registration 
-* Existing user login 
-* Browse through products in each category.
-* Browse through the best selling items.
-* Add to cart and checkout.
 
 	
