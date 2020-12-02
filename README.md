@@ -2,8 +2,15 @@
 This project is a basic implementation of an e-commerce website.
 The application allows a consumer(end-user) to browse through products offered by the site and place an order.
 The project also handles the administration part where the employee of the shopping site can manage other employees, inventory, products etc. 
+	
+# End-user workflow: #
+A glimpse of consumer workflow is shown below.
+![](images/userwfgif.gif)
+	
+#### Complete admin workflow: ####	 
+![Watch entire consumer workflow here.](images/userworkflow.swf)
 
-# Admin guide: #
+# Admin workflow: #
 Application supports two kinds of administrators. 
 System admin and product admin, system admin manages the system users 
 and product admin manages the products listed in the system. 
@@ -19,14 +26,6 @@ Default login credentials for an admin employee are admin/admin123).\
 * Adding different categories in products
 * Adding products belonging to different categories to the system(Note: images for added products must be placed in docbase folder/build/web folder and just the jpeg file name must be entered on screen)
 * Adding products to bestselling list manually.
-
-	
-# User guide: #
-A glimpse of consumer workflow is shown below.
-![](images/userwfgif.gif)
-	
-#### Complete user workflow: ####	 
-![Watch entire consumer workflow here.](images/userworkflow.swf)
 
 #### End-user workflow includes the following operations: ####
 * New user registration 
