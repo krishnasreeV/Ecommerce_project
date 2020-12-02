@@ -28,7 +28,7 @@
         </div>
         <div class="nav-bar" align="center">
             <div class="dropdown">
-                <a class="homebutton" href="homeadmin.jsp"><b>HOME</b></a>
+                <a class="homebutton" href="homeproduct.jsp"><b>HOME</b></a>
             </div>
             
             <div class="dropdown">

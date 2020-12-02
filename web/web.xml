@@ -15,11 +15,11 @@
     </context-param>
     <context-param>
         <param-name>username</param-name>
-        <param-value>mon_auth</param-value>
+        <param-value>username</param-value>
     </context-param>
     <context-param>
         <param-name>password</param-name>
-        <param-value>mon_auth</param-value>
+        <param-value>password</param-value>
     </context-param>
     <context-param>
         <param-name>driver</param-name>

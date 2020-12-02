@@ -16,7 +16,7 @@
             String cusername= (String)session.getAttribute("cusername");
             if(cusername==null){
             session.removeAttribute("username");
-            response.sendRedirect("login.jsp");}
+            response.sendRedirect("employeelogin.jsp");}
             else{
                 session.removeAttribute("cartid");
                 session.removeAttribute("cusername");
