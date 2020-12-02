@@ -7,10 +7,10 @@ This web application allows a consumer(end-user) to browse through products offe
 
 # Installation guide:
 
-     ### Code base:
+     ## Code base:
 	 * Clone the project from git and download it to your local machine.
 	
-	 ### Database:
+	 ## Database:
 	 * Download, install and set up SQL Server management studio.
 	 * Open the SQL Server management studio and Right click on 'Databases' and click on 'New Database'.
 	 * Enter any DB name and click OK.
@@ -18,13 +18,13 @@ This web application allows a consumer(end-user) to browse through products offe
 	 * Navigate back to SQL Server management studio and right click on the create DB name-> New query, paste the copied sql statements
 	 and click on execute.
 	 
-	 ### Tomcat:
+	 ## Tomcat:
 	 * Make sure tomcat is installed on your machine. If not installed download the latest version from here - https://tomcat.apache.org/download-80.cgi
 	 * In the docbase directory navigate to tomcat folder and copy the file Shopping_project.xml.
 	 * Go to tomcat directory Navigate to conf->Catalina->localhost(Create Catalina and localhost folders if needed) and paste the copied file here.
 	 * Open Shopping_project.xml in any editor replace ${DOCBASE-PATH} with the local path where the source code is downloaded from git. (point it to web folder ex: "C:\Users\saiv0001\Documents\NetBeansProjects\Shopping_project\web").
 	 
-	 ### Configure DB details:
+	 ## Configure DB details:
 	 * In the downloaded code base navigate to web/WEB-INF/web.xml. Open web.xml in notepad
 	 * Replace ${DB_URL} with the created DB URL 
 	 * Replace ${username} with the created DB username  
@@ -33,7 +33,7 @@ This web application allows a consumer(end-user) to browse through products offe
 	 * Open tomcat folder/conf/server.xml. Search for HTTP/1.1 connector port. 
 	 * In index.html replcae {portnum} with the http port number.
 	 
-	 ### Start up the application 
+	 ## Start up the application 
 	 * Navigate to tomcat folder / bin folder, double click startup.bat. make sure tomcat is up and running without any errors.
 	 * Go to any browser and load the URL http://${hostname}:${port number}/Shopping_project/index.html. Ex: http://localhost:8180/Shopping_project/index.html.
 	 
