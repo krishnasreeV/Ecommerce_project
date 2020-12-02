@@ -1,5 +1,5 @@
 # Objective: #
-This project is a very basic implementation of an e-commerce website.
+This project is a basic implementation of an e-commerce website.
 This web application allows a consumer(end-user) to browse through products offered by the site and place an order.
 The project also handles the administration part where the employee of the shopping site can manage other employees, inventory, products etc. 
 
@@ -24,7 +24,7 @@ The application follows a typical jsp architechture as shown in the image below.
 * Go to tomcat directory Navigate to conf->Catalina->localhost(Create Catalina and localhost folders if needed) and paste the copied file here.
 * Get sqljdbc4-2.0.jar and paste it in lib folder.
 * Open Shopping_project.xml in any editor replace ${DOCBASE-PATH} with the local path where the source code is downloaded from git. (point it to web folder ex: "C:\Users\saiv0001\Documents\NetBeansProjects\Shopping_project\web").
-####  Configure DB details: ####
+####  Configure Database and Server details: ####
 * In the downloaded code base navigate to web/WEB-INF/web.xml. Open web.xml in notepad
 * Replace ${DB_URL} with the created DB URL 
 * Replace ${username} with the created DB username  
@@ -41,10 +41,10 @@ The application follows a typical jsp architechture as shown in the image below.
 Application supports two kinds of administrators. 
 System admin and product admin, system admin manages the system users 
 and product admin manages the products listed in the system. 
-A glimpse of admin dashboard and product admin dashboard is shown in below gif.
-![](images/adminwfgif.gif)
+A glimpse of admin dashboard and product admin dashboard is shown below.
+![](images/adminwf_gif.gif)
 #### Complete user workflow: ####	 
-Default login credentials for an admin employee are admin/admin123).
+Default login credentials for an admin employee are admin/admin123).\
 ![Watch entire admin workflow here](images/adminworkflow.swf)
 
 #### Administration employee operations include: #### 
@@ -56,7 +56,7 @@ Default login credentials for an admin employee are admin/admin123).
 
 	
 # User guide: #
-A glimpse of consumer workflow is shown in the gif below
+A glimpse of consumer workflow is shown below.
 ![](images/userwfgif.gif)
 	
 #### Complete user workflow: ####	 
