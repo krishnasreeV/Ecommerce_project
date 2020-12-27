@@ -1,8 +1,11 @@
 # Description: #
 This project is a basic implementation of an e-commerce website.
-The application allows a consumer(end-user) to browse through products offered by the site and place an order.
-The project also handles the administration part where the employee of the shopping site can manage other employees, inventory, products etc. 
-	
+Technologies and languages used are jsp, css, html, SQL database , JDBC API and Tomcat server.
+
+# Architechture: #
+The application follows a typical jsp architechture as shown in the image below.
+![](images/ProjectStructure.png)
+
 # End-user workflow: #
 A glimpse of consumer workflow is shown below.
 ![](images/userwfgif.gif)
@@ -33,11 +36,7 @@ Default login credentials for an admin employee are admin/admin123).\
 * Browse through products in each category.
 * Browse through the best selling items.
 * Add to cart and checkout.
-	
-# Architechture: #
-The application follows a typical jsp architechture as shown in the image below.
-![](images/ProjectStructure.png)
-	
+
 # Installation guide: #
 ####  Code base: ####
 * Clone the project from git and download it to your local machine.
