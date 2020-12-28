@@ -6,12 +6,9 @@ Technologies and languages used are jsp, css, html, SQL database , JDBC API and 
 The application follows a typical jsp architechture as shown in the image below.
 ![](images/ProjectStructure.png)
 
-# End-user workflow: #
-A glimpse of consumer workflow is shown below.
-![](images/userwfgif.gif)
-	
-#### Complete end-user workflow: ####	 
-![Watch entire consumer workflow here.](images/userworkflow.swf)
+# Entity Relationship diagrams: #
+The ER diagrams for all the DB tables is shown below.
+![](images/Shop_Project_ER.png)
 
 # Admin workflow: #
 Application supports two kinds of administrators. 
@@ -19,9 +16,17 @@ System admin and product admin, system admin manages the system users
 and product admin manages the products listed in the system. 
 A glimpse of admin dashboard and product admin dashboard is shown below.
 ![](images/adminwf_gif.gif)
+
 #### Complete admin workflow: ####	 
-Default login credentials for an admin employee are admin/admin123).\
+Default login credentials for an admin employee are admin/admin123).
 ![Watch entire admin workflow here](images/adminworkflow.swf)
+
+# End-user workflow: #
+A glimpse of consumer workflow is shown below.
+![](images/userwfgif.gif)
+	
+#### Complete end-user workflow: ####	 
+![Watch entire consumer workflow here.](images/userworkflow.swf)
 
 #### Administration employee operations include: #### 
 * Adding new employees belonging to different departments to the system
@@ -60,7 +65,7 @@ Default login credentials for an admin employee are admin/admin123).\
 * Replace ${password} with the created DB password.
 * Navigate to downloaded doc base folder/web/index.html , open index.html in notepad replace '${hostname}' with the hostname ex:     localhost.
 * Open tomcat folder/conf/server.xml. Search for HTTP/1.1 connector port. 
-* In index.html replcae {portnum} with the http port number.
+* In index.html replace {portnum} with the http port number.
 ####  Start up the application ####
 * Navigate to tomcat folder / bin folder, double click startup.bat. make sure tomcat is up and running without any errors.
 * Go to any browser and load the URL http://${hostname}:${port number}/Shopping_project/index.html. Ex: http://localhost:8180/Shopping_project/index.html.
