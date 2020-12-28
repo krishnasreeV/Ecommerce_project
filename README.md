@@ -8,7 +8,7 @@ The application follows a typical jsp architechture as shown in the image below.
 
 # Entity Relationship diagrams: #
 The ER diagrams for all the DB tables is shown below.
-![](images/Shop_Project_ER.png)
+![](images/Shop_project_ER.png)
 
 # Admin workflow: #
 Application supports two kinds of administrators. 
