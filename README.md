@@ -21,19 +21,19 @@ A glimpse of admin dashboard and product admin dashboard is shown below.
 Default login credentials for an admin employee are admin/admin123).
 ![Watch entire admin workflow here](images/adminworkflow.swf)
 
-# End-user workflow: #
-A glimpse of consumer workflow is shown below.
-![](images/userwfgif.gif)
-	
-#### Complete end-user workflow: ####	 
-![Watch entire consumer workflow here.](images/userworkflow.swf)
-
 #### Administration employee operations include: #### 
 * Adding new employees belonging to different departments to the system
 #### Employee in products department workflow include: ####
 * Adding different categories in products
 * Adding products belonging to different categories to the system(Note: images for added products must be placed in docbase folder/build/web folder and just the jpeg file name must be entered on screen)
 * Adding products to bestselling list manually.
+
+# End-user workflow: #
+A glimpse of consumer workflow is shown below.
+![](images/userwfgif.gif)
+	
+#### Complete end-user workflow: ####	 
+![Watch entire consumer workflow here.](images/userworkflow.swf)
 
 #### End-user workflow includes the following operations: ####
 * New user registration 
